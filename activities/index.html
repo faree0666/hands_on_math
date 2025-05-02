@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activities</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-left">
+        <img src="../images/logo.png" alt="Logo" class="logo" />
+        <span class="brand-name">Hands-on Math</span>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../activities/index.html">Activities</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Activities Hero Section -->
+      <section class="page-hero">
+        <div class="container">
+          <h1>Math Activities</h1>
+          <p>
+            Explore our collection of fun, engaging math activities for children
+          </p>
+        </div>
+      </section>
+
+      <!-- Filter Section -->
+      <section class="filter-section">
+        <div class="container">
+          <div class="filters">
+            <div class="filter-group">
+              <label for="age-filter">Age Group</label>
+              <select id="age-filter">
+                <option value="all">All Ages</option>
+                <option value="3-5">3-5 years</option>
+                <option value="6-8">6-8 years</option>
+                <option value="9-11">9-11 years</option>
+                <option value="12+">12+ years</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="topic-filter">Math Topic</label>
+              <select id="topic-filter">
+                <option value="all">All Topics</option>
+                <option value="counting">Counting</option>
+                <option value="addition">Addition</option>
+                <option value="subtraction">Subtraction</option>
+                <option value="multiplication">Multiplication</option>
+                <option value="division">Division</option>
+                <option value="fractions">Fractions</option>
+                <option value="geometry">Geometry</option>
+                <option value="measurement">Measurement</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="type-filter">Activity Type</label>
+              <select id="type-filter">
+                <option value="all">All Types</option>
+                <option value="game">Games</option>
+                <option value="exploration">Explorations</option>
+                <option value="worksheet">Worksheets</option>
+                <option value="project">Projects</option>
+              </select>
+            </div>
+            <button id="reset-filters" class="btn btn-small">
+              Reset Filters
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activities Grid -->
+      <section class="activities-grid">
+        <div class="container">
+          <div class="activities-container">
+            <!-- Activity Card 1 -->
+            <div
+              class="activity-card"
+              data-age="6-8"
+              data-topic="addition"
+              data-type="game"
+            >
+              <div class="activity-image">
+                <img
+                  src="../images/Number Bond Cups.png"
+                  alt="Number Bond Cups"
+                />
+                <span class="free-tag">Free Download</span>
+              </div>
+              <div class="activity-content">
+                <h3>Number Bond Cups</h3>
+                <div class="tags">
+                  <span class="tag">Addition</span>
+                  <span class="tag">6-8 years</span>
+                  <span class="tag">Game</span>
+                </div>
+                <p>
+                  A fun cup-stacking game that teaches number bonds and addition
+                  strategies.
+                </p>
+                <a href="activity-detail.html" class="btn btn-small"
+                  >View Activity</a
+                >
+              </div>
+            </div>
+
+            <!-- Activity Card 2 -->
+            <div
+              class="activity-card"
+              data-age="9-11"
+              data-topic="fractions"
+              data-type="exploration"
+            >
+              <div class="activity-image">
+                <img
+                  src="../images/Fraction Exploration.png"
+                  alt="Pizza Fraction"
+                />
+              </div>
+              <div class="activity-content">
+                <h3>Pizza Fraction Fun</h3>
+                <div class="tags">
+                  <span class="tag">Fractions</span>
+                  <span class="tag">9-11 years</span>
+                  <span class="tag">Exploration</span>
+                </div>
+                <p>
+                  Use paper plates to explore fractions in a hands-on
+                  pizza-making activity.
+                </p>
+                <a href="activity-detail.html" class="btn btn-small"
+                  >View Activity</a
+                >
+              </div>
+            </div>
+
+            <!-- Activity Card 3 -->
+            <div
+              class="activity-card"
+              data-age="3-5"
+              data-topic="counting"
+              data-type="game"
+            >
+              <div class="activity-image">
+                <img
+                  src="../images/Counting Stars.png"
+                  alt="Number Bond Cups"
+                />
+                <span class="free-tag">Free Download</span>
+              </div>
+              <div class="activity-content">
+                <h3>Counting Stars</h3>
+                <div class="tags">
+                  <span class="tag">Counting</span>
+                  <span class="tag">3-5 years</span>
+                  <span class="tag">Game</span>
+                </div>
+                <p>
+                  A simple constellation-themed game that helps young children
+                  practice counting.
+                </p>
+                <a href="activity-detail.html" class="btn btn-small"
+                  >View Activity</a
+                >
+              </div>
+            </div>
+
+            <!-- Activity Card 4 -->
+            <div
+              class="activity-card"
+              data-age="6-8"
+              data-topic="multiplication"
+              data-type="worksheet"
+            >
+              <div class="activity-image">
+                <img
+                  src="../images/Multiplication Arrays.png"
+                  alt="Number Bond Cups"
+                />
+              </div>
+              <div class="activity-content">
+                <h3>Multiplication Arrays</h3>
+                <div class="tags">
+                  <span class="tag">Multiplication</span>
+                  <span class="tag">6-8 years</span>
+                  <span class="tag">Worksheet</span>
+                </div>
+                <p>
+                  Visual worksheets that teach multiplication concepts using
+                  arrays of objects.
+                </p>
+                <a href="activity-detail.html" class="btn btn-small"
+                  >View Activity</a
+                >
+              </div>
+            </div>
+
+            <!-- Activity Card 5 -->
+            <div
+              class="activity-card"
+              data-age="9-11"
+              data-topic="geometry"
+              data-type="project"
+            >
+              <div class="activity-image">
+                <img
+                  src="../images/3D Geometry Project.png"
+                  alt="Number Bond Cups"
+                />
+                <span class="free-tag">Free Download</span>
+              </div>
+              <div class="activity-content">
+                <h3>3D Shape Explorer</h3>
+                <div class="tags">
+                  <span class="tag">Geometry</span>
+                  <span class="tag">9-11 years</span>
+                  <span class="tag">Project</span>
+                </div>
+                <p>
+                  Build and explore 3D shapes while learning about their
+                  properties.
+                </p>
+                <a href="activity-detail.html" class="btn btn-small"
+                  >View Activity</a
+                >
+              </div>
+            </div>
+
+            <!-- Activity Card 6 -->
+            <div
+              class="activity-card"
+              data-age="12+"
+              data-topic="measurement"
+              data-type="exploration"
+            >
+              <div class="activity-image">
+                <img
+                  src="../images/Measurement Investigation.png"
+                  alt="Number Bond Cups"
+                />
+              </div>
+              <div class="activity-content">
+                <h3>Measurement Mystery</h3>
+                <div class="tags">
+                  <span class="tag">Measurement</span>
+                  <span class="tag">12+ years</span>
+                  <span class="tag">Exploration</span>
+                </div>
+                <p>
+                  An investigation activity where students use measurement to
+                  solve a mystery.
+                </p>
+                <a href="activity-detail.html" class="btn btn-small"
+                  >View Activity</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Email Popup for Downloads -->
+      <div id="download-popup" class="popup">
+        <div class="popup-content">
+          <span class="close-popup">&times;</span>
+          <h3>Get Your Free Download</h3>
+          <p>
+            Enter your email to download this activity. We respect your privacy
+            and will never share your information.
+          </p>
+          <form id="download-form">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="child-age">Child's Age</label>
+              <select id="child-age" required>
+                <option value="">Select age range</option>
+                <option value="3-5">3-5 years</option>
+                <option value="6-8">6-8 years</option>
+                <option value="9-11">9-11 years</option>
+                <option value="12+">12+ years</option>
+              </select>
+            </div>
+            <div class="form-group checkbox">
+              <input type="checkbox" id="agree-terms" required />
+              <label for="agree-terms"
+                >I agree to receive occasional emails about math activities. You
+                can unsubscribe at any time.</label
+              >
+            </div>
+            <button type="submit" class="btn">Download Now</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Hands-on Math</h2>
+            <p>Making math engaging and meaningful for every child.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../activities/index.html">Activities</a></li>
+              <li><a href="../blog/index.html">Blog</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+              <a href="https://facebook.com/yourpage"    target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/yourhandle"    target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/handsonmath.prarambh/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://youtube.com/yourchannel"   target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Hands-on Math. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="../js/animations.js"></script>
+  </body>
+</html>

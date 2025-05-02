@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activities</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-…" crossorigin="anonymous" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-left">
+        <img src="../images/logo.png" alt="Logo" class="logo" />
+        <span class="brand-name">Hands-on Math</span>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../activities/index.html">Activities</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="activity-detail">
+        <div class="container">
+          <div class="activity-breadcrumb">
+            <a href="../activities/index.html">Activities</a> &gt; Number Bond
+            Cups
+          </div>
+
+          <div class="activity-header">
+            <div class="activity-title">
+              <h1>Number Bond Cups</h1>
+              <div class="tags">
+                <span class="tag">Addition</span>
+                <span class="tag">6-8 years</span>
+                <span class="tag">Game</span>
+                <span class="tag free-tag">Free Download</span>
+              </div>
+            </div>
+            <div class="activity-image"></div>
+          </div>
+
+          <div class="activity-content">
+            <div class="activity-description">
+              <h2>About This Activity</h2>
+              <p>
+                Number Bond Cups is a fun, hands-on game that helps children
+                understand number bonds and addition strategies. By physically
+                manipulating cups with numbers, children can visualize how
+                numbers can be broken down and recombined in different ways.
+              </p>
+
+              <h2>Learning Objectives</h2>
+              <ol>
+                <li>Understand number bonds to 10</li>
+                <li>Develop addition fluency</li>
+                <li>Recognize patterns in number relationships</li>
+                <li>Build problem-solving skills</li>
+              </ol>
+
+              <h2>Materials Needed</h2>
+              <ol>
+                <li>10 paper or plastic cups</li>
+                <li>
+                  Marker or printable number labels (included in download)
+                </li>
+                <li>Small objects for counting (beans, buttons, etc.)</li>
+                <li>Activity worksheet (included in download)</li>
+              </ol>
+
+              <h2>Setup Instructions</h2>
+              <ol>
+                <li>Label each cup with numbers 1 through 10</li>
+                <li>
+                  Place the corresponding number of counting objects in each cup
+                </li>
+                <li>Print the activity worksheet</li>
+                <li>Clear a flat surface for playing</li>
+              </ol>
+
+              <h2>How to Play</h2>
+              <p>
+                The basic game involves selecting a "target number" and then
+                finding different combinations of cups (number bonds) that add
+                up to that target. For example, if the target is 10, children
+                might select cups labeled 7 and 3, or 5 and 5, or 1, 4, and 5.
+              </p>
+
+              <p>
+                The activity includes several variations and challenges for
+                different skill levels, all detailed in the downloadable
+                instructions.
+              </p>
+
+              <h2>Extension Ideas</h2>
+              <ol>
+                <li>Use the cups for subtraction practice</li>
+                <li>Create number bond challenges for larger numbers</li>
+                <li>Time challenges to build fluency</li>
+                <li>Create word problems using the cup numbers</li>
+              </ol>
+            </div>
+
+            <div class="activity-sidebar">
+              <div class="download-card">
+                <h3>Free Download</h3>
+                <p>
+                  Get the complete activity instructions, printable number
+                  labels, and activity worksheet.
+                </p>
+                <button id="download-button" class="btn">
+                  Download Activity
+                </button>
+              </div>
+
+              <div class="related-activities">
+                <h3>Related Activities</h3>
+                <div class="related-activity">
+                  <img
+                    src="../images/Number Bond Cups.png"
+                    alt="Number Bond Cups"
+                  />
+                  <div>
+                    <h4>Addition Card Game</h4>
+                    <a href="#">View Activity</a>
+                  </div>
+                </div>
+                <div class="related-activity">
+                  <img
+                    src="../images/Number Bond Cups.png"
+                    alt="Number Bond Cups"
+                  />
+                  <div>
+                    <h4>Number Line Hop</h4>
+                    <a href="#">View Activity</a>
+                  </div>
+                </div>
+                <div class="related-activity">
+                  <img
+                    src="../images/Number Bond Cups.png"
+                    alt="Number Bond Cups"
+                  />
+                  <div>
+                    <h4>Make 10 Challenge</h4>
+                    <a href="#">View Activity</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Email Popup for Downloads -->
+      <div id="download-popup" class="popup">
+        <div class="popup-content">
+          <span class="close-popup">&times;</span>
+          <h3>Get Your Free Download</h3>
+          <p>
+            Enter your email to download this activity. We respect your privacy
+            and will never share your information.
+          </p>
+          <form id="download-form">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="child-age">Child's Age</label>
+              <select id="child-age" required>
+                <option value="">Select age range</option>
+                <option value="3-5">3-5 years</option>
+                <option value="6-8">6-8 years</option>
+                <option value="9-11">9-11 years</option>
+                <option value="12+">12+ years</option>
+              </select>
+            </div>
+            <div class="form-group checkbox">
+              <input type="checkbox" id="agree-terms" required />
+              <label for="agree-terms"
+                >I agree to receive occasional emails about math activities. You
+                can unsubscribe at any time.</label
+              >
+            </div>
+            <button type="submit" class="btn">Download Now</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Hands-on Math</h2>
+            <p>Making math engaging and meaningful for every child.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../activities/index.html">Activities</a></li>
+              <li><a href="../blog/index.html">Blog</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/handsonmath.prarambh/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Hands-on Math. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/animations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-…" crossorigin="anonymous"></script>
+
+  </body>
+</html>
