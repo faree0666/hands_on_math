@@ -145,14 +145,13 @@ section {
 
 /* WHO WE ARE – black text override */
 .who-we-are {
-  background: #fff9c4;
+  background: #82b4aa;
   color: #000000; /* force black text */
 }
 
 .who-we-are h2 {
   font-size: 2.5em;
   margin-bottom: 1em;
-  color: #006e7f;
 }
 
 .who-we-are p {
