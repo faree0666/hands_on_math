@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'MoreSugar';
+  /* woff2 first for modern browsers, then woff as fallback */
+  src: url('../fonts/MoreSugar-Regular.woff2') format('woff2'),
+       url('../fonts/MoreSugar-Regular.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #fffaf0;
@@ -33,6 +42,7 @@ body {
 }
 
 .brand-name {
+  font-family: 'MoreSugar', cursive, sans-serif;
   font-size: 2.8em;
   font-weight: 700;
   color: #fff;
