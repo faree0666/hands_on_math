@@ -23,6 +23,8 @@ body {
   background: #002244; /* darker blue */
   color: white;
   padding: 2em 2em;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
