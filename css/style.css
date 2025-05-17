@@ -22,6 +22,7 @@ body {
 #navbar {
   background: #002244; /* darker blue */
   color: white;
+  pdding: 2rem, 2rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   display: flex;
