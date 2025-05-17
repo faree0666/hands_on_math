@@ -20,7 +20,7 @@ body {
 
 /* NAVBAR – teal blue */
 #navbar {
-  background: #006e7f
+  background: #006e7f;
   color: white;
   padding: 1.5em 1.5em;
   display: flex;
