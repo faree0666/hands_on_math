@@ -49,10 +49,10 @@ body {
   -webkit-text-stroke: 2px yellow;     /* outline for WebKit/Blink */
   text-stroke: 2px yellow;             /* future-proof */
   text-shadow:                         /* fallback outline */
-    -2px -2px 0 yellow,
-     2px -2px 0 yellow,
-    -2px  2px 0 yellow,
-     2px  2px 0 yellow;
+    -1px -1px 0 yellow,
+     1px -1px 0 yellow,
+    -1px  1px 0 yellow,
+     1px  1px 0 yellow;
   letter-spacing: 1px;
 }
 
